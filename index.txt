@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mica Makeup</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica', sans-serif;
+      background-color: #f8f6f8;
+      color: #333;
+    }
+    header {
+      background-color: #f3c1d7;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      color: #fff;
+    }
+    header p {
+      font-size: 1.5em;
+      color: #fff;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+    .curso-img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 20px;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #f3c1d7;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    footer {
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mica Makeup</h1>
+    <p>Aprendé a maquillarte de 0 a 100</p>
+  </header>
+
+  <main>
+    <!-- Acá podés poner tu imagen -->
+    <img src="tu-imagen.jpg" alt="Curso de maquillaje" class="curso-img" />
+
+    <!-- Botón para ir al curso -->
+    <a href="#" class="btn">Ver el curso</a>
+  </main>
+
+  <footer>
+    Contacto: <a href="mailto:romero.micaelaa18@gmail.com">romero.micaelaa18@gmail.com</a>
+  </footer>
+</body>
+</html>
